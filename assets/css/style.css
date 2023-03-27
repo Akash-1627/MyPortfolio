@@ -1142,6 +1142,9 @@ section {
   #progressbar{
     display: none;
   }
+  #footer{
+    color: #333;
+  }
   
 
   .breadcrumbs ol {
@@ -1175,15 +1178,10 @@ section {
   color: orangered;
 }
 
-#footer .credits {
-  padding-top: 5px;
-  text-align: center;
-  font-size: 13px;
-  color: #eaebf0;
-}
 
 @media (max-width: 1199px) {
   #footer {
+    color: #333;
     position: static;
     width: auto;
     padding-right: 20px 15px;
